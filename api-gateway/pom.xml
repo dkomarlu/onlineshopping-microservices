@@ -52,7 +52,11 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-micrometer</artifactId>
         </dependency>
-
+        <!-- Make service to fetch config info from Config Server-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
